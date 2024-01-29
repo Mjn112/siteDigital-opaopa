@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em Manutenção</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            overflow: hidden;
+        }
+
+        .maintenance-container {
+            text-align: center;
+        }
+
+        .maintenance-image {
+            max-width: 100%;
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maintenance-container">
+        <img class="maintenance-image" src="imagens/image-removebg-preview (2).png" alt="Em Manutenção">
+        <h1>Estamos em Manutenção</h1>
+        <p>Desculpe pelo transtorno. Estamos trabalhando para melhorar o nosso site.</p>
+    </div>
+</body>
+
+</html>
