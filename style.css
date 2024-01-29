@@ -134,12 +134,34 @@ main {
 .rigth {
     align-self: end;
     justify-content: left;
+    animation: go-front 1s;
 }
 
 .left {
     align-self: start;
     justify-content: right;
     padding-left: 7vw;
+    animation: go-back 1s;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateX(10vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes go-front {
+    from {
+        transform: translateX(-10vw);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 
@@ -259,28 +281,24 @@ footer {
     .container_btn {
         margin: 5vw 0vw 0vw 0vw;
         display: flex;
-        gap: 1vw;
+        gap: 5vw;
     }
 
     .btn {
-        width: 30vw;
-        height: 10vw;
+        width: 28vw;
+        height: 9vw;
         padding: 0vw 0vw 0vw 4vw;
         border-radius: 10vw;
     }
 
     .texto_btn1 {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
 
     .texto_btn2 {
-        font-size: 3.7vw;
+        font-size: 2.7vw;
         white-space: pre-line;
-        line-height: 3.4vw;
-    }
-
-    .texto_btn3 {
-        font-size: 3.7vw;
+        line-height: 2.5vw;
     }
 }
 
@@ -322,34 +340,30 @@ footer {
     }
 
     .texto4 {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
 
     .container_btn {
         margin: 5vw 0vw 0vw 0vw;
         display: flex;
-        gap: 1vw;
+        gap: 5vw;
     }
 
     .btn {
-        width: 32vw;
-        height: 10vw;
+        width: 28vw;
+        height: 9vw;
         padding: 0vw 0vw 0vw 4vw;
         border-radius: 10vw;
     }
 
     .texto_btn1 {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
 
     .texto_btn2 {
-        font-size: 3.8vw;
+        font-size: 2.7vw;
         white-space: pre-line;
-        line-height: 3.3vw;
-    }
-
-    .texto_btn3 {
-        font-size: 3.8vw;
+        line-height: 2.5vw;
     }
 }
 
