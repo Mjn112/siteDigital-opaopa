@@ -61,7 +61,7 @@ header {
     height: 90%;
     border-radius: 100%;
     border: solid 1vw #fff;
-    box-shadow: black 0px 3px 3px;
+    box-shadow: black 0px 3px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,8 +127,9 @@ main {
     align-items: center;
     background-color: #664a9f;
     width: 87vw;
-    height: 5vw;
+    height: 8.5vw;
     color: #fff;
+    padding-bottom: 1.5vw;
 }
 
 .rigth {
@@ -174,12 +175,13 @@ main {
 .titulo_card1 {
     font-family: "Montserrat-bold";
     font-size: 1.8vw;
-    line-height: 3.5vw;
+    line-height: 2;
 }
 
 .texto_card1 {
     font-family: "Montserrat-regular";
     font-size: 1.3vw;
+    line-height: 0.9;
     white-space: pre-line;
 }
 
@@ -274,6 +276,7 @@ footer {
 
     .texto_card1 {
         font-size: 2.5vw;
+        margin-top: -1.5vw;
     }
 
     .texto4 {
@@ -317,6 +320,10 @@ footer {
         font-size: 5vw;
     }
 
+    .texto3 {
+        font-size: 4vw;
+    }
+
     .container_card {
         width: 100vw;
         gap: 3vw;
@@ -334,12 +341,12 @@ footer {
 
     .titulo_card1 {
         font-size: 4vw;
-        line-height: 10vw;
         margin-top: -2vw;
     }
 
     .texto_card1 {
         font-size: 2.5vw;
+        margin-top: 0.5vw;
     }
 
     .texto4 {
@@ -529,7 +536,9 @@ footer {
     .titulo_card1 {
         font-size: 4vw;
         line-height: 10vw;
-        margin-top: -2vw;
+        margin-top: -1.8vw;
+
+
     }
 
     .texto_card1 {
